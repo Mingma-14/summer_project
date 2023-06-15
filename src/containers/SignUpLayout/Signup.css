@@ -1,0 +1,87 @@
+
+
+
+.container{
+    width: 60%;
+    height: 75%;
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+
+
+}
+
+.flname{
+    display: flex;
+    gap: 5px;
+    height: 45px;
+    border-radius: 5px;
+    width: 35%;
+}
+
+.name{
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    padding-left: 5px;
+}
+.name:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.email{
+    padding: 0% 17% 0% 0%;
+    
+}
+.ename{
+    height: 45px;
+    width: 200%;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+   
+}
+.ename:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.password{
+    padding: 0% 17% 0% 0%;
+}
+.pname{
+    height: 45px;
+    width: 195%;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    padding-left: 5px;
+   
+}
+.pname:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.radio{
+    display: flex;
+    gap: 10px;
+    
+}
+.btn{
+    padding: 0% 20% 0% 0%;
+   
+}
+.signupbtn{
+    width: 500%;
+    height: 45px;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    
+
+}

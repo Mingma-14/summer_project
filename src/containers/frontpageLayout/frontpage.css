@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    align-items: center;
+    height: 10vh;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: ease 0.3;
+}
+.logo:hover{
+    color: rosybrown;
+}
+.nav-links{
+    display: flex;
+    gap: 50px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    transition: all ease 0.3s;
+}
+.nav-link:hover{
+    color: rosybrown;
+}
+ .container{
+     /* background-image: url(./wallpaperflare.com_wallpaper\ \(2\).jpg); */
+    height: 90vh;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+.content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 0% ;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2%;
+
+}
+.text{
+    color: black;
+    text-align: left;
+    padding: 2%;
+    
+}
+.p{
+    font-weight: lighter;
+}
+.images{
+    padding: 3%;
+}
+.button2{
+    width: 150px;
+    height: 40px;
+    border:none;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+
+.button1{
+    width: 150px;
+    height: 40px;
+    border:none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10%;
+}
+@media(max-height:768px){
+
+}

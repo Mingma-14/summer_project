@@ -1,0 +1,39 @@
+.nav-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: aliceblue;
+}
+
+.logo{
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.nav-link:hover {
+    color: purple;
+}
